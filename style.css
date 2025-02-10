@@ -4,6 +4,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+h1, h2{
+  font-color: #e00000;
+}
 svg {
   overflow: visible;
 }
