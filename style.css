@@ -32,7 +32,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #fff0f3;
+   /* background: #fff0f3;*/
     margin: 0;
     overflow: hidden;
 }
