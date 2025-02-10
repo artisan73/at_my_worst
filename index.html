@@ -7,6 +7,17 @@
 
 </head>
 <body>
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const audio = document.getElementById('valentineAudio');
+  document.body.addEventListener('click', function() {
+    audio.play().catch(() => {
+      audio.muted = true;
+      audio.play();
+    });
+  }, { once: true });
+});
+</script>
   <audio id="valentineAudio" loop autoplay>
     <source src="/bg_music/Blue.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
