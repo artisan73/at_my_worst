@@ -53,6 +53,65 @@ svg path#heart {
   transform-origin: 50% 50%;
   animation: blink 4s linear infinite;
 }
+#valentineAudio {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 200px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+#valentineAudio:hover {
+  opacity: 1;
+}
+
+/* Lyrics box */
+.lyrics-box {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  animation: slideIn 1s ease-out;
+}
+
+.lyrics-box h3 {
+  font-family: 'Dancing Script', cursive;
+  color: #ff3366;
+  margin: 0 0 10px 0;
+}
+
+.lyrics-content {
+  font-family: 'Great Vibes', cursive;
+  color: #ff6699;
+  line-height: 1.5;
+}
+
+/* I ❤ YOU text */
+.love-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #ff3366;
+  text-shadow: 2px 2px 4px rgba(255, 51, 102, 0.3);
+  animation: heartbeat 1.5s infinite;
+}
+
+/* New animations */
+@keyframes heartbeat {
+  0% { transform: translate(-50%, -50%) scale(1); }
+  15% { transform: translate(-50%, -50%) scale(1.3); }
+  30% { transform: translate(-50%, -50%) scale(1); }
+  45% { transform: translate(-50%, -50%) scale(1.15); }
+  60% { transform: translate(-50%, -50%) scale(1); }
+}
 
 @keyframes dash {
   0% {
