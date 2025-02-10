@@ -62,7 +62,7 @@ h2 {
 }
 .click-prompt {
     position: fixed;
-    bottom: 20%;
+    bottom: 30%;
     left: 50%;
     transform: translateX(-50%);
     background: rgba(255, 255, 255, 0.9);
