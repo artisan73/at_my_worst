@@ -1,7 +1,6 @@
-/* style.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Pacifico&display=swap');
 
-/* Original Animations Preserved */
 @keyframes dash {
     0% { stroke-dashoffset: 1; }
     80% { stroke-dashoffset: 0; }
@@ -28,7 +27,6 @@
     50% { transform: translateY(-10px); }
 }
 
-/* Preserved Original Elements */
 body {
     height: 100vh;
     display: flex;
@@ -65,8 +63,6 @@ svg {
     max-width: 600px;
     margin: 1rem 0;
 }
-
-/* Lifeline Animation */
 svg path#line {
     fill: none;
     stroke: #e00000;
@@ -84,7 +80,6 @@ svg path#heart {
     animation: blink 4s linear infinite;
 }
 
-/* New Additions */
 .lyrics-box {
     position: fixed;
     bottom: 20px;
