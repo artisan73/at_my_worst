@@ -47,6 +47,11 @@ h1 {
     animation: fadeIn 2s ease-out;
     letter-spacing: 2px;
     transform: rotate(-3deg);
+    text-align: center;
+    width: 100%;
+    transform: rotate(-3deg) translateX(-50%);
+    position: relative;
+    left: 50%;
 }
 
 h2 {
